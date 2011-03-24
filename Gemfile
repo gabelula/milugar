@@ -6,6 +6,7 @@ gem 'rails', '3.0.5'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
+gem 'devise'
 
 # Use unicorn as the web server
 gem 'unicorn'
@@ -32,5 +33,5 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'launchy'
-  gem 'database_cleaner'
+#  gem 'database_cleaner'
 end
